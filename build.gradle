@@ -27,7 +27,7 @@ subprojects {
 
     dependencies {
         compile group: 'org.hdrhistogram', name: 'HdrHistogram', version: '2.+'
-        compile group: 'io.undertow', name: 'undertow-core', version: '2.0+'
+        compile group: 'io.undertow', name: 'undertow-core', version: '[2.0.0.Final, 2.0.15)'
         compile gradleApi() // dependency of type DefaultSelfResolvingDependency
     }
 
