@@ -10,3 +10,4 @@
 rootProject.name = 'root'
 include 'subproject1'
 include 'subproject2'
+include 'subproject3'
