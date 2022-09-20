@@ -7,7 +7,7 @@ dependencies {
     testImplementation group: 'junit', name: 'junit', version: junit
 }
 
-jar.enabled = false
+//jar.enabled = false
 
 shadowJar {
     classifier = ''
