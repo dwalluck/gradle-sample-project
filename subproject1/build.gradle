@@ -1,4 +1,4 @@
 dependencies {
-    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
     api group: 'junit', name: 'junit', version: junit
 }
