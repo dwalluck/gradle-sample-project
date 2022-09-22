@@ -3,11 +3,9 @@ plugins {
 }
 
 dependencies {
-    implementation group: 'org.ow2.asm', name: 'asm-util', version: '9.3'
+    api group: 'org.ow2.asm', name: 'asm-util', version: '9.3'
     testImplementation group: 'junit', name: 'junit', version: junit
 }
-
-//jar.enabled = false
 
 shadowJar {
     classifier = ''
